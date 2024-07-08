@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeMaster - 软件主页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CodeMaster</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">特性</a></li>
+                <li><a href="#testimonials">用户评价</a></li>
+                <li><a href="#download">下载</a></li>
+                <li><a href="#pricing">价格</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>释放您的编码潜力</h2>
+            <p>CodeMaster是一款革命性的编程辅助工具，旨在提升您的开发效率。</p>
+            <button onclick="window.location.href='https://example.com/download';">立即下载</button>
+        </section>
+
+        <section id="features">
+            <h2>我们的特性</h2>
+            <ul>
+                <li>智能代码补全</li>
+                <li>实时错误检测</li>
+                <li>多语言支持</li>
+                <li>自定义主题</li>
+            </ul>
+        </section>
+
+        <section id="testimonials">
+            <h2>用户评价</h2>
+            <div class="testimonial">
+                <p>"自从使用CodeMaster以来，我的编码速度提高了30%。"</p>
+                <cite>- John Doe, 资深开发人员</cite>
+            </div>
+            <div class="testimonial">
+                <p>"这款工具改变了我的编码习惯，现在我更专注于解决问题，而不是语法错误。"</p>
+                <cite>- Jane Smith, 新手程序员</cite>
+            </div>
+        </section>
+
+        <section id="download">
+            <h2>下载 CodeMaster</h2>
+            <p>选择适合您的操作系统：</p>
+            <a href="https://example.com/download-windows"><button>Windows</button></a>
+            <a href="https://example.com/download-macos"><button>MacOS</button></a>
+            <a href="https://example.com/download-linux"><button>Linux</button></a>
+        </section>
+
+        <section id="pricing">
+            <h2>价格计划</h2>
+            <div class="price-plan">
+                <h3>免费版</h3>
+                <ul>
+                    <li>基本功能</li>
+                    <li>每周一次更新</li>
+                </ul>
+                <button>立即下载</button>
+            </div>
+            <div class="price-plan">
+                <h3>专业版</h3>
+                <ul>
+                    <li>所有功能</li>
+                    <li>每日更新</li>
+                    <li>优先支持</li>
+                </ul>
+                <button>￥99/年</button>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系我们</h2>
+            <form action="/submit-contact" method="post">
+                <label for="name">姓名:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">邮箱:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">消息:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <button type="submit">发送</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 CodeMaster. 版权所有.</p>
+    </footer>
+</body>
+</html>
